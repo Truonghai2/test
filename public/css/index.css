@@ -1,0 +1,70 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+
+#wrapper .content{
+    width: 100%;
+    max-width: 30%;
+    margin: 10% 33% 10% 33%;
+    background: #fff;
+    position: fixed;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.content .header-content{
+    padding: 0px 0px 10px 0px ;
+    border-bottom: 1px solid #f1f1f1;
+
+
+}
+
+
+.header-content h1{
+    text-align: center;
+}
+.main-content{
+    margin-top: 15px;
+}
+.main-content #contactForm label{
+    margin-top: 10px;
+}
+.main-content #contactForm input{
+    width: 95.5%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #f1f1f1;
+}
+.main-content #contactForm .birthday{
+    text-align: center;
+}
+
+.main-content #contactForm .birthday .item{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-content #contactForm input[name=submit]{
+    width: 100%;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #42B72A;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+ }
